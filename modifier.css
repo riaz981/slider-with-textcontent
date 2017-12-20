@@ -1,0 +1,97 @@
+ #logo-image{
+            width:480px;
+
+         }
+         @media (max-width: 500px){
+            #logo-image{
+                width: 397px;
+            }
+         }
+
+        .mySlides {display:none;}
+
+        .w3-container,.w3-panel{
+            padding:0.01em 16px
+        }
+        .w3-content{
+            max-width:980px;
+            margin:auto;
+            }
+        .w3-rest{
+            overflow:hidden
+        }
+        .w3-panel{margin-top:16px;
+            margin-bottom:16px
+        }
+        .w3-animate-top{position:relative;
+            animation:animatetop 0.4s
+        }
+        @keyframes animatetop{
+            from{top:-300px;opacity:0} 
+            to{top:0;opacity:1}
+        }
+
+
+        .w3-animate-bottom{
+            position:relative;
+            animation:animatebottom 0.4s
+            }
+        @keyframes animatebottom{
+            from{
+                bottom:-300px;
+                opacity:0
+                } 
+            to{
+                bottom:0;
+                opacity:1
+            }
+        }
+
+        .w3-section,.w3-code{
+            margin-top:16px!important;
+            margin-bottom:16px!important
+        }
+
+        .w3-animate-left{
+            position:relative;
+            animation:animateleft 0.4s
+        }
+        @keyframes animateleft{
+            from{
+                left:-300px;
+                opacity:0
+            } 
+            to{left:0;
+                opacity:1
+            }
+        }
+
+        .w3-animate-right{
+            position:relative;
+            animation:animateright 0.8s
+            }
+        @keyframes animateright{
+            from{
+                right:-300px;
+                opacity:0
+            } 
+            to{
+                right:0;
+                opacity:1
+            }
+        }
+        .img-container{
+            width: 100%;
+            height: auto;
+        }
+
+        .img-container .after{
+            position: absolute;
+            rgba(0,0,0,0.6);
+            display: block;
+            color: #fff;
+            z-index: 1;
+            width: 33.2%;
+            height: 42%;
+            background-color: rgba(0,0,0,0.6);
+        }
